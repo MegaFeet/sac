@@ -22,6 +22,6 @@ $validator->field('message')->maxLength(6000);
 $pp->attachFiles(['image']);
 
 
-$pp->sendEmailTo('feetfee2@walla.com'); // ← Your email here
+$pp->sendEmailTo('hackda29@gmail.com'); // ← Your email here
 
 echo $pp->process($_POST);
